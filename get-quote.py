@@ -12,9 +12,9 @@ def primary():
   last = 13
   rnd1 = random.randint(0, last)
   rnd2 = random.randint(0, last)
-  rnd4 = random.randint(0, last)
+  rnd3 = random.randint(0, last)
 
-  print(quotes[rnd1], quotes[rnd2], quotes[rnd4].strip())
+  print(quotes[rnd1], quotes[rnd2], quotes[rnd3].strip())
 
 
 if __name__== "__main__":
